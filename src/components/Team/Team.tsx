@@ -3,6 +3,7 @@ import './Team.css';
 import IlyaImg from '../../assets/IMAGE 2025-10-14 22:23:18.jpg'
 import AndriiImg from '../../assets/IMAGE 2025-10-14 22:29:38.jpg'
 import ArturImg from '../../assets/IMAGE 2025-10-14 22:31:06.jpg'
+import GabrielaImg from '../../assets/IMAGE 2025-10-15 19:33:53.jpg'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -42,7 +43,7 @@ export default function Team() {
           MEET OUR TEAM
         </motion.h1>
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 "
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 "
           variants={containerVariants}
         >
           {/* Team Member 1 */}
@@ -59,9 +60,6 @@ export default function Team() {
               <h2 className="text-2xl font-bold mb-2 uppercase">Vasylenko Illia</h2>
               <p className="text-yellow-400 mb-4 uppercase">Team leader</p>
               <div>
-               <p className="">
-                Created and maintained database for a non-profit organisation’s potential partners, performed thorough analysis of target audience for this organisation (буквально все, що я зробив крім навчання за 2 роки🥺) Student at American University Kyiv and Kyiv School of Economics
-                </p>
                 <p>
                 Born too late to explore the earth Born too soon to explore the galaxy
                 </p>
@@ -103,6 +101,23 @@ export default function Team() {
               <p className="text-yellow-400 mb-4 uppercase">Web developer</p>
               <p>
                 Worked as a React native developer. Developer and supported app called Mandi.
+              </p>
+            </div>
+          </motion.div>
+          <motion.div
+            className="border-2 border-yellow-400 hover:text-yellow-400 p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
+            variants={itemVariants}
+          >
+            <div className="text-center hover:text-yellow-400">
+              <img
+                src={GabrielaImg}
+                alt="ZERO"
+                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
+              />
+              <h2 className="text-2xl font-bold mb-2 uppercase">Habriella Ter-Nikosyan</h2>
+              <p className="text-yellow-400 mb-4 uppercase">Data Scientist/Web developer</p>
+              <p>
+                Creative person, have experience in web development with JS and I use Linux btw
               </p>
             </div>
           </motion.div>
