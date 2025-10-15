@@ -1,73 +1,20 @@
-# React + TypeScript + Vite
+### 🧑‍💻 Our Team 
+United not by choice, but by pure luck, our team is ready to vibe some good quality code. Our ideas range from a simple tic-tac-toe game to state-of-the-art diffusion models; the only limit is our imagination (and the number of free trials for new LLMs).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**👑 Vasylenko Illia – Team Leader**
 
-Currently, two official plugins are available:
+**About:** A student at the American University of Kyiv and Kyiv School of Economics, Illia is a well-rounded professional. He previously created and maintained a database for a non-profit organization's potential partners and performed a thorough analysis of their target audience. He brings two years of learning and practical experience to the team.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**💬 Motto:** "Born too late to explore the earth, born too soon to explore the galaxy. Born just in time to be a vibe coder."
 
-## React Compiler
+**💻 Artur Kudyrko – Web Developer**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**About:** Artur is an experienced React Native developer who previously worked on and supported the "Mandi" app. He brings a strong background in mobile and web development to the project.
 
-## Expanding the ESLint configuration
+**🔧 Andrii Moroz**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**About:** A well-rounded professional with proficient skills in multiple domains, Andrii is an expert at adapting to different challenges and team dynamics. His diverse skillset allows him to contribute in various ways.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**✨ Gabriella**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**About:** Gabriella has some experience with frontend JavaScript development. She's volunteered to take on any tasks that need delegating, demonstrating a great collaborative spirit. Her motto is "vibe coding is not a problem at this stage," which aligns with the team's creative approach.

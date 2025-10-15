@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import './Team.css';
+import IlyaImg from '../../assets/IMAGE 2025-10-14 22:23:18.jpg'
+import AndriiImg from '../../assets/IMAGE 2025-10-14 22:29:38.jpg'
+import ArturImg from '../../assets/IMAGE 2025-10-14 22:31:06.jpg'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -26,8 +29,9 @@ export default function Team() {
     <motion.div
       className="min-h-screen p-8"
       initial="hidden"
-      animate="visible"
+      whileInView="visible"
       variants={containerVariants}
+      viewport={{ once: true }}
     >
       <div className="container mx-auto">
         <motion.h1
@@ -43,35 +47,42 @@ export default function Team() {
         >
           {/* Team Member 1 */}
           <motion.div
-            className="border-2 border-yellow-400  p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
+            className="border-2 border-yellow-400  p-6 bg-opacity-50 hover:bg-black hover:text-yellow-400 transition-all duration-300 transform hover:-translate-y-2"
             variants={itemVariants}
           >
             <div className="text-center hover:text-yellow-400 ">
               <img
-                src="https://i.pravatar.cc/150?u=jax"
+                src={IlyaImg}
                 alt="JAX"
-                className="w-32 h-32 mx-auto mb-4 rounded-tl-lg"
+                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
               />
-              <h2 className="text-2xl font-bold mb-2">JAX</h2>
-              <p className="text-yellow-400 mb-4">LEAD DEVELOPER</p>
-              <p className="">
-                The architect of our digital fortress. Jax's code is clean, mean, and always on the cutting edge. He drinks neon-colored energy drinks and dreams in binary.
-              </p>
+              <h2 className="text-2xl font-bold mb-2 uppercase">Vasylenko Illia</h2>
+              <p className="text-yellow-400 mb-4 uppercase">Team leader</p>
+              <div>
+               <p className="">
+                Created and maintained database for a non-profit organisation’s potential partners, performed thorough analysis of target audience for this organisation (буквально все, що я зробив крім навчання за 2 роки🥺) Student at American University Kyiv and Kyiv School of Economics
+                </p>
+                <p>
+                Born too late to explore the earth Born too soon to explore the galaxy
+                </p>
+                <p>Born just in time to be vibe coder</p> 
+              </div>
+              
             </div>
           </motion.div>
           {/* Team Member 2 */}
           <motion.div
-            className="border-2 border-yellow-400 p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
+            className="border-2 border-yellow-400  hover:text-yellow-400 p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
             variants={itemVariants}
           >
             <div className="text-center hover:text-yellow-400">
               <img
-                src="https://i.pravatar.cc/150?u=cyra"
+                src={AndriiImg}
                 alt="CYRA"
-                className="w-32 h-32 mx-auto mb-4 rounded-tl-lg"
+                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
               />
-              <h2 className="text-2xl font-bold mb-2">CYRA</h2>
-              <p className="text-yellow-400 mb-4">UI/UX DESIGNER</p>
+              <h2 className="text-2xl font-bold mb-2 uppercase">Andrii Moroz</h2>
+              <p className="text-yellow-400 mb-4 uppercase">Web developer</p>
               <p>
                 The visionary who paints with pixels and light. Cyra crafts interfaces that are not only beautiful but also intuitive. She's the reason our tech feels alive.
               </p>
@@ -79,19 +90,19 @@ export default function Team() {
           </motion.div>
           {/* Team Member 3 */}
           <motion.div
-            className="border-2 border-yellow-400 p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
+            className="border-2 border-yellow-400 hover:text-yellow-400 p-6 bg-opacity-50 hover:bg-black transition-all duration-300 transform hover:-translate-y-2"
             variants={itemVariants}
           >
             <div className="text-center hover:text-yellow-400">
               <img
-                src="https://i.pravatar.cc/150?u=zero"
+                src={ArturImg}
                 alt="ZERO"
-                className="w-32 h-32 mx-auto mb-4 rounded-tl-lg"
+                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
               />
-              <h2 className="text-2xl font-bold mb-2">ZERO</h2>
-              <p className="text-yellow-400 mb-4">SYSTEMS ANALYST</p>
+              <h2 className="text-2xl font-bold mb-2 uppercase">Artur Kudyrko</h2>
+              <p className="text-yellow-400 mb-4 uppercase">Web developer</p>
               <p>
-                The ghost in the machine. Zero sees the patterns others miss, ensuring our systems are secure and efficient. He's a master of data and a whisper in the network.
+                Worked as a React native developer. Developer and supported app called Mandi.
               </p>
             </div>
           </motion.div>
