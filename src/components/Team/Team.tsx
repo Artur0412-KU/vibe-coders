@@ -3,7 +3,7 @@ import './Team.css';
 import IlyaImg from '../../assets/IMAGE 2025-10-14 22:23:18.jpg'
 import AndriiImg from '../../assets/IMAGE 2025-10-14 22:29:38.jpg'
 import ArturImg from '../../assets/IMAGE 2025-10-14 22:31:06.jpg'
-import RomanImg from '../../assets/photo_2025-11-06 17.43.48.jpeg'
+import RomanImg from '../../assets/roma-dotsenko.jpg'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -55,7 +55,7 @@ export default function Team() {
               <img
                 src={IlyaImg}
                 alt="JAX"
-                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
+                className="w-36 h-48 mx-auto mb-4 rounded-tl-lg"
               />
               <h2 className="text-2xl font-bold mb-2 uppercase">Vasylenko Illia</h2>
               <p className="text-yellow-400 mb-4 uppercase">Team leader</p>
@@ -77,7 +77,7 @@ export default function Team() {
               <img
                 src={AndriiImg}
                 alt="CYRA"
-                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
+                className="w-36 h-48 mx-auto mb-4 rounded-tl-lg"
               />
               <h2 className="text-2xl font-bold mb-2 uppercase">Andrii Moroz</h2>
               <p className="text-yellow-400 mb-4 uppercase">Web developer</p>
@@ -95,7 +95,7 @@ export default function Team() {
               <img
                 src={ArturImg}
                 alt="ZERO"
-                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
+                className="w-36 h-48 mx-auto mb-4 rounded-tl-lg"
               />
               <h2 className="text-2xl font-bold mb-2 uppercase">Artur Kudyrko</h2>
               <p className="text-yellow-400 mb-4 uppercase">Web developer</p>
