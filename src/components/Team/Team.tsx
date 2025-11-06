@@ -3,7 +3,7 @@ import './Team.css';
 import IlyaImg from '../../assets/IMAGE 2025-10-14 22:23:18.jpg'
 import AndriiImg from '../../assets/IMAGE 2025-10-14 22:29:38.jpg'
 import ArturImg from '../../assets/IMAGE 2025-10-14 22:31:06.jpg'
-import GabrielaImg from '../../assets/IMAGE 2025-10-15 19:33:53.jpg'
+import RomanImg from '../../assets/photo_2025-11-06 17.43.48.jpeg'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -110,14 +110,14 @@ export default function Team() {
           >
             <div className="text-center hover:text-yellow-400">
               <img
-                src={GabrielaImg}
+                src={RomanImg}
                 alt="ZERO"
-                className="w-32 h-48 mx-auto mb-4 rounded-tl-lg"
+                className="w-36 h-48 mx-auto mb-4 rounded-tl-lg"
               />
-              <h2 className="text-2xl font-bold mb-2 uppercase">Habriella Ter-Nikosyan</h2>
-              <p className="text-yellow-400 mb-4 uppercase">Data Scientist/Web developer</p>
+              <h2 className="text-2xl font-bold mb-2 uppercase">Roman Dotsenko</h2>
+              <p className="text-yellow-400 mb-4 uppercase">.NET Engineer</p>
               <p>
-                Creative person, have experience in web development with JS and I use Linux btw
+                Developer who cuts the bullshit and gets things done.
               </p>
             </div>
           </motion.div>
